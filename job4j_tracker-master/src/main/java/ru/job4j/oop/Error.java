@@ -25,9 +25,9 @@ public class Error {
         Error positive = new Error(true,0,"Все отлично!");
         Error neutral  = new Error(false, 0, "Ни рыба, ни мясо!");
         error.printInfo();
-        System.out.println(" ");
+        System.out.println("  ");
         positive.printInfo();
-        System.out.println(" ");
+        System.out.println("  ");
         neutral.printInfo();
     }
 
