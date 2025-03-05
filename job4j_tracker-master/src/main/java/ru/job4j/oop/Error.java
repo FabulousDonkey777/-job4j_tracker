@@ -4,10 +4,9 @@ public class Error {
     private boolean active;
     private int status;
     private String message;
+
     public Error() {
-        active = false;
-        status= 1;
-        message = "Бездарь!";
+
     }
 
     public Error (boolean active, int status, String message) {
@@ -26,9 +25,9 @@ public class Error {
         Error positive = new Error(true,0,"Все отлично!");
         Error neutral  = new Error(false, 0, "Ни рыба, ни мясо!");
         error.printInfo();
-        System.out.println("");
+        System.out.println(" ");
         positive.printInfo();
-        System.out.println("");
+        System.out.println(" ");
         neutral.printInfo();
     }
 
